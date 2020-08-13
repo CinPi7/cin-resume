@@ -1,3 +1,50 @@
+@media only screen and (max-width: 1200px){
+    main div.about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    main div.about div.floripa a img{
+        margin: 0;
+    }
+    main section.about-content{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    main section.about-content h2, 
+    main div.skills-container > h2{
+        font-size: 18px;
+    }
+    main section.about-content h2:nth-child(1){
+        margin-top: 2em;
+    }
+    main section.about-content h2:nth-child(2){
+        margin-bottom: 2em;
+    }
+    main section.about-content p{
+        font-size: 13px;
+        text-align: center;
+    }
+    main div.skills-container div.skills-big-box{
+        margin-top: 2em;
+    }
+    main div.work{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 639px){
+    main div.skills-container div.skills-big-box{
+        flex-direction: column;
+    }
+    header.header-title ul{
+        display: none;
+    }
+}
 
 /* Footer */
 @media only screen and (min-width: 1440px) {
