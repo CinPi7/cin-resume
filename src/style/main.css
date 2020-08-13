@@ -1,0 +1,41 @@
+:root{
+    --background: #f4f0f0;
+    --text-color: #602035;
+    --lines: #e4ede4;
+    --gray: #333333;
+    --border: #f1ac9e;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+}
+body{
+    background: var(--background);
+    -webkit-font-smoothing: antialiased;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    color: black;
+}
+h2 span.line, h3 span.line{
+    background-image: linear-gradient(#f4f0f0 50%, #fff 50%);
+}
+body footer{
+    max-width: auto;
+    margin: 0;
+}
+
+
+
+

@@ -1,0 +1,44 @@
+main div.skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5em;
+}
+main div.skills-container > h2{
+    text-transform: uppercase;
+    font-family: 'Playfair Display', 'Georgia', serif;
+    color: black;
+    font-size: 32px;
+}
+main div.skills-container div.skills-big-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+main div.skills-container div.skills-big-box div.skill-box{
+    border: 1px;
+    border-radius: 8px;
+    background: url(../assets/pattern.jpg);
+    padding: 10px 25px 10px 25px;
+    box-shadow: 3px 3px 3px 3px rgb(153, 153, 158);
+    margin: 1em;
+    line-height: 1.7em;
+    height: 300px;
+    width: 250px;
+    cursor: pointer;
+}
+main div.skills-container div.skills-big-box div.skill-box h3{
+    margin-top: 1em;
+    color: var(--gray);
+}
+main div.skills-container div.skills-big-box div.skill-box h3 span.line3{
+    background-image: linear-gradient(transparent 50%, #f4f0f0 50%);
+}
+main div.skills-container div.skills-big-box div.skill-box a{
+    line-height: 1em;
+}
+main div.skills-container div.skills-big-box div.skill-box hr{
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}

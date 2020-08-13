@@ -1,0 +1,22 @@
+
+/* Footer */
+@media only screen and (min-width: 1440px) {
+    footer.footer{
+        background-color: var(--background);
+        margin-top: 15em;
+    }
+    footer.footer a img{
+        filter: invert(70%); 
+    }
+    footer.footer hr{
+        border-top: 2px solid var(--gray);
+        width: 70%;
+    }
+    footer.footer p{
+        color: var(--gray);
+    }
+    div.folhagem{
+        display: none;
+    }
+}
+

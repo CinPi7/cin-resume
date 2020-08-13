@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cinthia - Web Experience </title>
+     <link rel="icon" href="./public/assets/asterisk.png" type="image/png"> 
+
+    <!-- style sheets -->
+    <link rel="stylesheet" href="../src/style/main.css">
+    <link rel="stylesheet" href="../src/style/frame.css">
+    <link rel="stylesheet" href="../src/style/home.css">
+    <link rel="stylesheet" href="../src/style/about.css">
+    <link rel="stylesheet" href="../src/style/work.css">
+    <link rel="stylesheet" href="../src/style/skills.css">
+
+    <link rel="stylesheet" href="../src/style/footer.css">
+    <link rel="stylesheet" href="../src/style/responsive.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet"> 
+
+</head>
+<body >
+<div class="dot"></div>
+<header class="header-title">
+    <h1>Cinthia - web experience </h1>
+    <nav>
+        <ul>
+            <!--<li><a href="about.html">about</a></li>-->
+            <li><a href="#work">work</a></li>
+            <!--<li><a href="contact.html">contact</a></li>-->
+        </ul>
+    </nav>
+</header>
+<main role="main">
+    <div class="about">
+        <div class="floripa" id="container">
+            <a href="https://en.wikipedia.org/wiki/Florian%C3%B3polis">
+                <img src="./src/assets/value1.png" alt="Hercilio Luz" id="inner">
+            </a>
+        </div>
+        <section class="about-content" id="oi">
+            <h2>About Me </h2>
+            <h2><span class="line">What's in a name</span></h2>
+            <p>I'm Cinthia, a <span class="lines-type">web developer</span> 
+            based in Florianópolis, Brazil. <br />
+            My background goes to <span class="lines-type">Information and Comunication Technology</span>
+            and I'm focused on <span class="lines-type">web experiences</span>. <br />
+            My childhood was at a small city in Brazil, a really peaceful 
+            place to live. That led my curiosity to grow and goes from <span class="lines-type">psychology, 
+            design and technology</span>. <br />
+            If you have something beautiful to share with the world, I can help you with that.<br />
+            Interested in a collab? I'm available for freelance sideprojects. 
+            Just <span class="lines-type"><a href="/">"Say olá!"</a></span></p>
+        </section>
+    </div>
+
+    <!-- skills section -->
+    <div class="skills-container">
+        <h2><span class="line">My Skills</span></h2>
+        <div class="skills-big-box">
+            <div class="skill-box" >
+                <h3><span class="line3"><b>Web</b> Developer</span></h3><hr>
+                <a class="space"><abbr title="Hypertext Markup Language">HTML</abbr></a></br>
+                <a><abbr title="Cascading Style Sheets">CSS</abbr></a></br>
+                <a><abbr title="ECMAScript 6">JavaScript</abbr></a></br>
+                <a>Bootstrap</a></br>
+                <a>React.js + Redux</a></br>
+                <a>Back- end notions</a></br>
+                <a>Node.js + Express.js</a></br>
+                <a>Databases</a></br>
+            </div>
+            <div class="skill-box" >
+                <h3><span  class="line3"><b>Meta</b> Skills</span></h3><hr>
+                <a class="space">Problem Solving</a></br>
+                <a>Perspective-taking</a></br>
+                <a>Responsive Design</a></br>
+                <a>Photoshop, Illustrator</a></br>
+                <a>and other visual design tools</a></br>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- work section, some projects -->
+    <div class="work" id="work" >
+        <h2><span class="line">Work Experience</span></h2>
+        <div class="slide-container">
+            <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
+                <div class="slide fade">
+                    <div class="text-experience">
+                        <h3><span class="line">Fylo </span></h3>
+                        <p> Frontend Development <br/> Responsive Design</p>
+                    </div>
+                    <div>
+                        <img src="./src/assets/fylo.png" alt="fylo project" >
+                    </div>
+                </div>
+                <div class="slide fade">
+                    <div class="text-experience">
+                        <h3><span class="line">Theme Mode </span></h3>
+                        <p>Frontend Development <br/> Responsive Design</p>
+                    </div>
+                    <div>
+                        <img src="./src/assets/theme.png" alt="theme project">
+                    </div>
+                </div>
+                <div class="slide fade">
+                    <div class="text-experience">
+                        <h3><span class="line">Form </span></h3>
+                        <p>Frontend Development <br/> Responsive Design</p>
+                    </div>
+                    <div>
+                        <img src="./src/assets/form.png" alt="form project">
+                    </div>
+                </div>
+                <div class="slide fade">
+                    <div class="text-experience">
+                        <h3><span class="line">Smart Brain </span></h3>
+                        <p> Front -end <br/> Back -end <br/> Relational Database</p>
+                    </div>
+                    <div>
+                        <img src="./src/assets/smart.png" alt="smartbrain project">
+                    </div>
+                </div>
+
+            <a class="next" onclick="nextSlide(1)">&#10095;</a>   
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <a href="#oi" class="back-to-top">
+        <img src="./src/assets/logo-cin.png" alt="logo">
+    </a>
+    <hr />
+    <p class="footer__text">
+        © 2020 
+    </p>
+</footer>
+    <script type="text/javascript" src="./src/scripts/ola.js"></script>
+    <script type="text/javascript" src="./src/scripts/slide.js"></script>
+    <script type="text/javascript" src="./src/scripts/inner.js"></script>
+    <script type="text/javascript" src="./src/scripts/frame.js"></script>
+</body>
+</html>

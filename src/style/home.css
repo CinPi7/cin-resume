@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+}
+header.header-title h1{
+    font-size: 18px;
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+    font-weight: lighter;
+    /*
+    background: url("../assets/traco-titulo.gif") no-repeat;
+    background-position: bottom;
+    height: 5vh;
+    */
+}
+header.header-title ul{
+    margin-top: -0.15em;
+}
+header.header-title ul li{
+    display: inline;
+}
+header.header-title ul li a{
+    background: linear-gradient(to bottom, 
+       var(--lines) 0%,
+       var(--lines) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 0px 0px;
+    transition: background-size .2s;
+    color: var(--text-color);
+    font-size: 17px;
+    display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+	width: 80px;
+	height: 30px;
+}
+header.header-title ul li a:hover{
+    height: 30px;
+    background-color: var(--lines);
+    transition: .5s ease;
+    background-size: 4px 50px;
+}
+header.header-title div.mobile{
+    display: none;
+}
