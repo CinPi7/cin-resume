@@ -32,6 +32,10 @@
     main div.skills-container div.skills-big-box{
         margin-top: 2em;
     }
+    
+    header.header-title ul{
+        display: none;
+    }
     main div.work{
         display: none;
     }
@@ -40,9 +44,6 @@
 @media only screen and (max-width: 639px){
     main div.skills-container div.skills-big-box{
         flex-direction: column;
-    }
-    header.header-title ul{
-        display: none;
     }
 }
 
