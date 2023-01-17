@@ -1,104 +1,106 @@
 /* Form */
-.form-box{
-    margin: 0;
+.form-box {
+  margin: 0;
 }
-.form-box form{
-    padding: 2em 15em;
-    margin: 0 auto;
-    width: 100%;
+.form-box form {
+  padding: 2em 15em;
+  margin: 0 auto;
+  width: 100%;
 }
 .form-box form fieldset {
-    border: none;
+  border: none;
 }
-.form-box form div.form-title{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3em;
+.form-box form div.form-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
 }
-.form-box form div.form-title h2{
-    font-size: 32px;
-    text-transform: uppercase;
-    font-family: 'Playfair Display', 'Georgia', serif;
-    color: black;
+.form-box form div.form-title h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: "Playfair Display", "Georgia", serif;
+  color: black;
 }
-.form-box form fieldset legend{
-    display: none;
+.form-box form fieldset legend {
+  display: none;
 }
-.form-box form .fieldgroup{
-    display: flex;
-    flex-direction: row;
+.form-box form .fieldgroup {
+  display: flex;
+  flex-direction: row;
 }
-.form-box form .field{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    position: relative;
+.form-box form .field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  position: relative;
 }
-.form-box form .field label{
-    position: absolute;
-    padding: 16px 24px;
-    font-weight: 500;
+.form-box form .field label {
+  position: absolute;
+  padding: 16px 24px;
+  font-weight: 500;
 }
-.form-box form .field input, textarea{
-    background-color: white;
-    box-shadow: 0.5px 0.5px 5px var(--gray);
-    border: 0;
-    padding: 14px 22px;
-    padding-left: 5.3em;
-    font-size: 16px;
-    outline: none; 
-    border-radius: 8px;
+.form-box form .field input,
+textarea {
+  background-color: white;
+  box-shadow: 0.5px 0.5px 5px var(--gray);
+  border: 0;
+  padding: 14px 22px;
+  padding-left: 5.3em;
+  font-size: 16px;
+  outline: none;
+  border-radius: 8px;
 }
-.form-box form .field textarea{
-    padding-top: 1.1em;
-    padding-left: 6.5em;
+.form-box form .field textarea {
+  padding-top: 1.1em;
+  padding-left: 6.5em;
 }
-.form-box form .field input::placeholder, textarea::placeholder{
-    font-family: 'Montserrat', 'Helvetica', sans-serif;
-    font-size: 12px;
+.form-box form .field input::placeholder,
+textarea::placeholder {
+  font-family: "Montserrat", "Helvetica", sans-serif;
+  font-size: 12px;
 }
 .form-box form .field input:required:focus {
-    border: 2px solid #ed8768;
-    outline: none;
+  border: 2px solid #ed8768;
+  outline: none;
 }
-.form-box form .field textarea:required:focus{
-    border: 2px solid #ed8768;
+.form-box form .field textarea:required:focus {
+  border: 2px solid #ed8768;
 }
 
-div .send-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2em;
+div .send-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
 }
-div .send-form button{
-    width: 100px;
-    height: 50px;
-    background-color: black;
-    box-shadow: 1px 1px 5px var(--lines);
-    color: var(--background);
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 14px;
-    letter-spacing: 0.2px;
-    text-transform: uppercase;
-    border: 0;
-    transition: background-color 50ms;
+div .send-form button {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  box-shadow: 1px 1px 5px var(--lines);
+  color: var(--background);
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  border: 0;
+  transition: background-color 50ms;
 }
-.form-box form fieldset button:hover{
-    background-color: var(--gray);
-    cursor: pointer;
+.form-box form fieldset button:hover {
+  background-color: var(--gray);
+  cursor: pointer;
 }
 
 /* imagem da folhagem */
-div.folhagem{
-    display: flex;
-    justify-content: end;
-    margin-right: 0;
-    padding-right: 0;
+div.folhagem {
+  display: flex;
+  justify-content: end;
+  margin-right: 0;
+  padding-right: 0;
 }
-div.folhagem img{
-    height: 450px;
-    width: 450px;
+div.folhagem img {
+  height: 450px;
+  width: 450px;
 }

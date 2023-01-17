@@ -1,46 +1,46 @@
 /* ABOUT ME SECTION */
-main div.about{
-    display: flex;
-    justify-content: space-around;
+main div.about {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em;
 }
-main div.about{
-    margin-top: 5em;
+
+main div#container {
+  perspective: 100px;
 }
-main div#container{
-    perspective: 100px;
+
+main div.about div.floripa a img {
+  margin-left: 15em;
+  margin-top: 9em;
+  width: 180px;
+  height: 180px;
 }
-main div.about div.floripa a img{
-    margin-left: 15em; 
-    margin-top: 9em;
-    width: 180px;
-    height: 180px;
+#inner {
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
 }
-#inner{
-    transition: transform 0.5s;
-    -webkit-transition: transform 0.5s;
-    -moz-transition: transform 0.5s;
-    -o-transition: transform 0.5s;
+main section.about-content {
+  margin-left: 5em;
 }
-main section.about-content{
-    margin-left: 5em;
+main section.about-content h2 {
+  text-transform: uppercase;
+  font-family: "Playfair Display", "Georgia", serif;
+  color: black;
+  font-size: 32px;
 }
-main section.about-content h2{
-    text-transform: uppercase;
-    font-family: 'Playfair Display', 'Georgia', serif;
-    color: black;
-    font-size: 32px;
+main section.about-content h2:nth-child(1) {
+  margin-bottom: 0;
 }
-main section.about-content h2:nth-child(1){
-    margin-bottom: 0;
+main section.about-content h2:nth-child(2) {
+  margin-bottom: 1em;
 }
-main section.about-content h2:nth-child(2){
-    margin-bottom: 1em;
+main section.about-content p {
+  line-height: 2em;
+  width: 80%;
+  color: var(--gray);
 }
-main section.about-content p{
-    line-height: 2em;
-    width: 80%;
-    color: var(--gray);
-}
-main section.about-content p span.lines-type{
-    background-image: linear-gradient(#f4f0f0 50%, #e4ede4 50%);
+main section.about-content p span.lines-type {
+  background-image: linear-gradient(#f4f0f0 50%, #e4ede4 50%);
 }

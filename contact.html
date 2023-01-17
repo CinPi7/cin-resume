@@ -1,81 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Cinthia | "Say olá" </title>
-    <link rel="icon" href="./public/assets/asterisk.png" type="image/png"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinthia | Say "olá"</title>
+    <link rel="icon" href="./src/assets/asterisk.png" type="image/png" />
 
-    <link rel="stylesheet" href="../public/style/main.css">
-    <link rel="stylesheet" href="../public/style/home.css">
-    <link rel="stylesheet" href="../public/style/contact.css">
-    <link rel="stylesheet" href="../public/style/footer.css">
-    <link rel="stylesheet" href="../public/style/responsive.css">
+    <link rel="stylesheet" href="./src/style/main.css" />
+    <link rel="stylesheet" href="./src/style/home.css" />
+    <link rel="stylesheet" href="./src/style/contact.css" />
+    <link rel="stylesheet" href="./src/style/footer.css" />
+    <link rel="stylesheet" href="./src/style/responsive.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet"> 
-
-</head>
-<body>
-<header class="header-title" id="oi">
-    <h1>Cinthia - web experience </h1>
-    <nav>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-title" id="oi">
+      <h1>Cinthia - web experience</h1>
+      <nav>
         <ul>
-            <li><a href="index.html">profile</a></li>
+          <li><a href="index.html">profile</a></li>
         </ul>
-    </nav>
-</header>
-<main>
-    <!-- get in touch formulário -->
-    <div class="form-box">
-        <form action="" method="">
+      </nav>
+    </header>
+    <main>
+      <!-- get in touch formulário -->
+      <div class="form-box">
+        <form action="" method="POST">
+          <fieldset>
             <div class="form-title">
-                <h2><span class="line">Get in touch</span></h2>
+              <h2><span class="line">Get in touch</span></h2>
             </div>
-            <fieldset>
-                <legend>Form</legend>
-                <div class="fieldgroup">
-                    <div class="field">
-                        <label for="name">*Name: </label>
-                        <input type="text" name="name" placeholder="Type your name" required="required">
-                    </div>
-                </div>
-                <div class="fieldgroup">
-                    <div class="field">
-                        <label for="email">*Email: </label>
-                        <input type="email" name="email" placeholder="Type your e-mail" required="required">
-                    </div>
-                </div>
-                <div class="fieldgroup">
-                    <div class="field">
-                        <label for="comment">*Message: </label>
-                        <textarea 
-                            name="comment" 
-                            id="comment" 
-                            cols="30" 
-                            rows="10"
-                            placeholder="Write your message here"
-                            required="required">
-                        </textarea>
-                    </div>
-                </div>
-                <div class="send-form"><button type="submit">Send</button></div>
-            </fieldset>
-        </form>    
-    </div>
-    
-    <div class="folhagem">
-        <img src="/public/assets/folhagem.gif" alt="">
-    </div>
-</main>
-<footer class="footer">
-    <a href="#" class="back-to-top">
-        <img src="./public/assets/logo-cin.png" alt="logo">
-    </a>
-    <hr />
-    <p class="footer__text">
-        © 2020 
-    </p>
-</footer>
-</body>
+            <legend>Form</legend>
+            <div class="fieldgroup">
+              <div class="field">
+                <label for="name">Name: </label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Type your name"
+                  required="required"
+                  tabindex="1"
+                />
+              </div>
+            </div>
+            <div class="fieldgroup">
+              <div class="field">
+                <label for="email">Email: </label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Type your e-mail"
+                  required="required"
+                  tabindex="2"
+                />
+              </div>
+            </div>
+            <div class="fieldgroup">
+              <div class="field">
+                <label for="comment">Message: </label>
+                <textarea
+                  name="comment"
+                  id="comment"
+                  cols="30"
+                  rows="10"
+                  placeholder="Write your message here"
+                  required="required"
+                  tabindex="3"
+                >
+                </textarea>
+              </div>
+            </div>
+            <div class="send-form">
+              <button type="submit" tabindex="4">Send</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="folhagem">
+        <img src="./src/assets/" alt="" />
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="#" class="back-to-top">
+        <img src="./src/assets/logo-cin.png" alt="logo" />
+      </a>
+      <hr />
+      <p class="footer__text">© 2020</p>
+    </footer>
+  </body>
 </html>
