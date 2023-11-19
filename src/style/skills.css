@@ -43,6 +43,8 @@ main div.skills-container div.skills-big-box div.skill-box h3 span.line3 {
 
 main div.skills-container div.skills-big-box div.skill-box a {
   line-height: 1em;
+  display: flex;
+  padding-top: 0.7em;
 }
 
 main div.skills-container div.skills-big-box div.skill-box hr {
